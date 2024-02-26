@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #06a526;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid #ddd;
+}
+
+.cell {
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+.cell:last-child {
+    border-right: none;
+}
+
+.header {
+    background-color: #999;
+    font-weight: bold;
+}
+    
+img {
+    width: 80%;
+}
